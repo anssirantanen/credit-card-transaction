@@ -1,0 +1,8 @@
+pandas==2.2.3
+requests==2.32.3
+pyspark==3.5.4
+pyarrow
+py4j
+numpy
+grpcio-status
+googleapis-common-protos
