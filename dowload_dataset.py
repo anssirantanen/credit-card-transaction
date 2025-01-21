@@ -25,6 +25,5 @@ shutil.copy(local_training_name, credict_card_transaction)
 with open(credict_card_transaction) as target, open(local_testing_name, 'w') as output:
     reader = csv.reader(target)
     writer = csv.writer(output)
-    next(reader,None)
     for row in reader:
         writer.writerow(row)
